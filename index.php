@@ -30,7 +30,7 @@ if(isset($_POST['login'])){ //if login button is clicked
             header("location:collectorIndex.php");
         }
         else{
-            $message='Invalid login information';
+            $message='Invalid LOGIN information';
         }
     }
 }
