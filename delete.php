@@ -1,4 +1,5 @@
 <?php
+//this file is going to allow us in cretaion od delete records in database
 require 'includeFiles/config.php';
 $id = $_GET['id'];
 $sql = 'DELETE FROM citizen WHERE id=:id';
